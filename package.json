@@ -6,7 +6,7 @@
   "scripts": {
     "build": "concurrently postcss src/styles/styles.css -o public/styles/styles.css --watch",
     "dev": "npm run build && live-server public ",
-    "start": "concurrently \"postcss src/styles/styles.css -o public/styles/styles.css --watch\"  \"live-server ./public\"",
+    "start": "concurrently \"postcss src/styles/styles.css -o public/styles/styles.css --watch\"  \"live-server\"",
     "serve": "npm run start"
 
   },
