@@ -1406,9 +1406,6 @@ video {
 .rounded-md {
   border-radius: 8px;
 }
-.rounded-sm {
-  border-radius: 4px;
-}
 .rounded-xl {
   border-radius: 32px;
 }
@@ -1631,20 +1628,9 @@ video {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-.py-4 {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.px-2 {
-  padding-left: 12px;
-  padding-right: 12px;
-}
 .py-3 {
   padding-top: 16px;
   padding-bottom: 16px;
-}
-.pt-6 {
-  padding-top: 48px;
 }
 .text-left {
   text-align: left;
